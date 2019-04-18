@@ -1,0 +1,163 @@
+@import "mixins";
+
+/* $theme-colors: (
+  "primary": black
+); */
+
+#map {
+  width: 100%;
+  height: 400px;
+}
+
+.body {
+  padding-top: 65px;
+  margin-top: 65px;
+}
+
+img.img-brand {
+  width: 180px;
+  height: 43px;
+  margin-left: 20px;
+}
+
+#hero {
+  background-image: url("../img/shutterstock_326070713.jpg");
+  background-size: cover;
+  p {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 24px;
+    text-align: left;
+  }
+
+  h1 {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 43px;
+  }
+
+  .download img {
+    margin-top: 2%;
+  }
+
+  @media (min-width: 576px) {
+    height: 550px;
+  }
+}
+
+.h-text {
+  padding: 10% 2%;
+}
+
+.workshome h3 {
+  text-align: center;
+}
+
+.works {
+  height: auto;
+  padding: 3%;
+
+  p {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  h3 {
+    color: #4a4a4a;
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 29px;
+  }
+
+  img {
+    margin-top: 30px;
+    padding-top: 30px;
+    width: 178px;
+    height: 187px;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.download img {
+  width: 160px;
+  height: 48px;
+  margin-left: 15px;
+}
+.prices {
+  height: auto;
+  background: #373737;
+  padding: 5% 2%;
+
+  h3 {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 29px;
+    margin-bottom: 30px;
+  }
+  h4 {
+    color: #28e7a8;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .card {
+    border: 5px;
+    margin-bottom: 2%;
+  }
+
+  li {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 100;
+  }
+  .list-group-item {
+    background-color: #4e4e4e;
+  }
+
+  .list-group-item:nth-child(2) {
+    background-color: #626262;
+  }
+
+  img {
+    margin: -10px;
+    position: relative;
+    background-color: none;
+  }
+}
+
+p {
+  color: #4a4a4a;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 24px;
+  text-align: center;
+}
+
+.footer {
+  background: #373737;
+  height: 100px;
+  p {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 19px;
+    text-align: center;
+  }
+}
+
+/** end of template page **/
+@import "node_modules/bootstrap/scss/bootstrap";
